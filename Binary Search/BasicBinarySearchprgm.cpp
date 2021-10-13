@@ -13,9 +13,9 @@ ll BinarySearch(ll *a, ll size, ll key){
     ll sp=0; 
     //ep->ending point
     ll ep=size-1; 
-    //mid element
-    ll mid=(sp+ep)/2; 
+    //mid element 
     while(sp<=ep){
+        ll mid=(sp+ep)/2;
         if(key == a[mid]){
             return mid;
         }
